@@ -21,7 +21,7 @@
 }
 
 .portfolio-logo-row {
-  min-height: 200px;
+  min-height: 150px;
 }
 
 .is-compact .portfolio-logo-row {
@@ -32,8 +32,8 @@
   background: url(images/profile.jpg) 50% no-repeat;
   border-radius: 50%;
   background-size: cover;
-  height: 150px;
-  width: 150px;
+  height: 120px;
+  width: 120px;
   margin: auto auto 10px;
 }
 
@@ -139,12 +139,6 @@ img.article-image {
   padding: 10px 0 0;
 }
 
-.portfolio-share-btn {
-  position: relative;
-  float: right;
-  top: -4px;
-}
-
 .demo-card-event > .mdl-card__actions {
     -webkit-align-items: center;
         -ms-flex-align: center;
@@ -169,3 +163,12 @@ footer {
   background-size: cover;
 }
 
+.intro-card-wide.mdl-card {
+  width: 100%;
+}
+
+.intro-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 220px;
+  background: url("images/intro-bg.jpg") center / cover;
+}
