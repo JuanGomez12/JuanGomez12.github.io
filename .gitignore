@@ -1,1 +1,5 @@
+# Example images
 images/example/*
+
+# VSCode settings
+.vscode/settings.json
